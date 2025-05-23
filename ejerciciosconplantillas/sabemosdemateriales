@@ -1,1 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Viajes y Turismo</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #eef2f3;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #2196f3;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    section {
+      padding: 20px;
+    }
+    h2 {
+      color: #333;
+    }
+    ul {
+      list-style-type: square;
+      padding-left: 20px;
+    }
+    footer {
+      background-color: #222;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
 
+<header>
+  <h1>Explora el Mundo con Nosotros</h1>
+  <p>Tu guía para descubrir destinos inolvidables</p>
+</header>
+
+<section>
+  <h2>¿Qué es el turismo?</h2>
+  <p>El turismo es una actividad que permite a las personas conocer nuevos lugares, culturas y paisajes, ya sea por ocio, aventura, descanso o aprendizaje. Viajar enriquece la mente, promueve el entendimiento cultural y genera desarrollo económico en muchas regiones del mundo.</p>
+</section>
+
+<section>
+  <h2>Destinos Populares</h2>
+  <ul>
+    <li><strong>París, Francia:</strong> La ciudad del amor y la luz, con la icónica Torre Eiffel.</li>
+    <li><strong>Machu Picchu, Perú:</strong> Un sitio arqueológico impresionante en los Andes.</li>
+    <li><strong>Bali, Indonesia:</strong> Playas paradisíacas, cultura y relajación tropical.</li>
+    <li><strong>Roma, Italia:</strong> Historia, arte y gastronomía en cada rincón.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Principales Compañías de Viajes</h2>
+  <ul>
+    <li><strong>Expedia:</strong> Reserva de vuelos, hoteles y paquetes turísticos.</li>
+    <li><strong>Booking.com:</strong> Alojamiento en todo el mundo.</li>
+    <li><strong>Airbnb:</strong> Alquiler de apartamentos y experiencias locales.</li>
+    <li><strong>Skyscanner:</strong> Comparación de precios de vuelos.</li>
+    <li><strong>Despegar:</strong> Plataforma popular en América Latina para viajes.</li>
+  </ul>
+</section>
+
+<footer>
+  <p>&copy; 2025 Mundo Viajero. Todos los derechos reservados.</p>
+</footer>
+
+</body>
+</html>
