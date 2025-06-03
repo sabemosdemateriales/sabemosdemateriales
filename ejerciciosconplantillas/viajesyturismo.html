@@ -1,105 +1,148 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-  <title>Turismo Global</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+  <title>Explora Turismo</title>
   <style>
-    body,h1 {font-family: "Raleway", sans-serif}
+    /* Estilos básicos y diseño limpio */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
     body {
-      background-image: url('imagenes/viajesprincipios');
-      background-size: cover;
-      background-position: center;
-      min-height: 100vh;
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    bgimg {
+  background-image: url('imagenes/viajeyturismo');
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+    }
+
+    nav {
+      background-color: #0a9396;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h2 {
+      margin-bottom: 15px;
+      color: #005f73;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background-color: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+
+    footer {
+      background-color: #001219;
+      color: white;
+      text-align: center;
+      padding: 20px 10px;
+      margin-top: 40px;
+    }
+
+    @media (max-width: 600px) {
+      nav a {
+        display: block;
+        margin: 10px 0;
+      }
     }
   </style>
 </head>
-<body class="w3-display-container w3-animate-opacity w3-text-white">
+<body>
 
-  <div class="w3-display-topleft w3-padding-large w3-xlarge">
-    <a href="historia.html" class="w3-button w3-white">Historia</a>
-    <a href="destinos.html" class="w3-button w3-white">Destinos</a>
-    <a href="contacto.html" class="w3-button w3-white">Contacto</a>
+<header>
+  <h1>Explora Turismo</h1>
+  <p>Viaja. Descubre. Vive la experiencia.</p>
+</header>
+
+<nav>
+  <a href="#introduccion">Inicio</a>
+  <a href="#destinos">Destinos</a>
+  <a href="#companias">Compañías</a>
+  <a href="#contacto">Contacto</a>
+</nav>
+
+<section id="introduccion">
+  <h2>¿Qué es el turismo?</h2>
+  <p>El turismo es una actividad que enriquece el alma. Nos permite conocer nuevas culturas, disfrutar de paisajes increíbles, y vivir experiencias únicas alrededor del mundo.</p>
+</section>
+
+<section id="destinos">
+  <h2>Destinos Recomendados</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>París, Francia</h3>
+      <p>Una ciudad llena de arte, moda, gastronomía y romance. Perfecta para cualquier viajero.</p>
+    </div>
+    <div class="card">
+      <h3>Tokio, Japón</h3>
+      <p>Una mezcla fascinante de tradición y tecnología. Una ciudad que nunca duerme.</p>
+    </div>
+    <div class="card">
+      <h3>Cusco, Perú</h3>
+      <p>Puerta de entrada a Machu Picchu y al mundo incaico. Cultura, historia y montaña.</p>
+    </div>
   </div>
+</section>
 
-  <div class="w3-display-middle">
-    <h1 class="w3-jumbo w3-animate-top">Turismo Global</h1>
-    <hr class="w3-border-grey" style="margin:auto;width:40%">
-    <p class="w3-large w3-center">Descubre el mundo con nosotros</p>
+<section id="companias">
+  <h2>Compañías de Viajes Populares</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Expedia</h3>
+      <p>Reserva vuelos, hoteles y paquetes turísticos con facilidad.</p>
+    </div>
+    <div class="card">
+      <h3>Booking.com</h3>
+      <p>Alojamiento en millones de destinos en todo el mundo.</p>
+    </div>
+    <div class="card">
+      <h3>Skyscanner</h3>
+      <p>Compara vuelos baratos y planifica tu viaje de forma económica.</p>
+    </div>
   </div>
+</section>
 
-  <div class="w3-display-bottomleft w3-padding-large">
-    <p>Plantilla utilizada: <a href="plantilla1.jpg" target="_blank" class="w3-text-white">Ver plantilla</a></p>
-  </div>
+<section id="contacto">
+  <h2>Contacto</h2>
+  <p>¿Deseas más información o asesoría para tu viaje? Escríbenos a <strong>info@exploraturismo.com</strong> o síguenos en redes sociales.</p>
+</section>
 
-<head>
-  <title>Historia del Turismo</title>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-</head>
-<body class="w3-light-grey">
+<footer>
+  <p>&copy; 2025 Explora Turismo. Todos los derechos reservados.</p>
+</footer>
 
-  <div class="w3-bar w3-dark-grey">
-    <a href="index.html" class="w3-bar-item w3-button">Inicio</a>
-    <a href="destinos.html" class="w3-bar-item w3-button">Destinos</a>
-    <a href="contacto.html" class="w3-bar-item w3-button">Contacto</a>
-  </div>
-
-  <div class="w3-container w3-padding-32">
-    <h2>Historia del Turismo</h2>
-    <p>El turismo comenzó en la antigüedad con los viajes por comercio y religión. En el siglo XX, los avances tecnológicos permitieron viajar con fines de ocio, naciendo así la industria turística moderna.</p>
-    <p>Actualmente, el turismo es una de las principales actividades económicas del mundo.</p>
-  </div>
-
-  <div class="w3-container">
-    <p>Plantilla utilizada: <a href="plantilla2.jpg" target="_blank">Ver plantilla</a></p>
-  </div>
-<head>
-  <title>Destinos Populares</title>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-</head>
-<body class="w3-pale-blue">
-
-  <div class="w3-bar w3-blue">
-    <a href="index.html" class="w3-bar-item w3-button">Inicio</a>
-    <a href="historia.html" class="w3-bar-item w3-button">Historia</a>
-    <a href="contacto.html" class="w3-bar-item w3-button">Contacto</a>
-  </div>
-
-  <div class="w3-container w3-padding">
-    <h2>Destinos Populares</h2>
-    <ul class="w3-ul w3-card-4">
-      <li class="w3-bar">París, Francia - La ciudad del amor</li>
-      <li class="w3-bar">Tokio, Japón - Fusión de tradición y tecnología</li>
-      <li class="w3-bar">Machu Picchu, Perú - Maravilla arqueológica</li>
-    </ul>
-  </div>
-<head>
-  <title>Contacto</title>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-</head>
-<body class="w3-sand">
-
-  <div class="w3-bar w3-brown">
-    <a href="index.html" class="w3-bar-item w3-button">Inicio</a>
-    <a href="historia.html" class="w3-bar-item w3-button">Historia</a>
-    <a href="destinos.html" class="w3-bar-item w3-button">Destinos</a>
-  </div>
-
-  <div class="w3-container w3-padding">
-    <h2>Contáctanos</h2>
-    <form class="w3-container w3-card-4">
-      <p><input class="w3-input" type="text" placeholder="Nombre completo"></p>
-      <p><input class="w3-input" type="email" placeholder="Correo electrónico"></p>
-      <p><textarea class="w3-input" placeholder="Escribe tu mensaje..."></textarea></p>
-      <p><button class="w3-button w3-dark-grey">Enviar</button></p>
-    </form>
-  </div>
+</body>
 </html>
+
